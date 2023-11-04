@@ -1,0 +1,167 @@
+*,*::after,*::before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.banner {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url(https://i.pinimg.com/564x/df/89/81/df8981db7d7e02e49e82581b55a8f96f.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.navbar {
+    position: absolute;
+    top: 0;
+    padding: 1rem;
+    width: 70%;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+ul li  {
+    list-style: none;
+    margin-left: 0 50rem;
+    display: inline;
+    padding: 2rem;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+.text {
+    width: 100%;
+    height: 100%;
+    margin: 15rem 0;
+    padding: 1rem;
+    position: absolute;
+    color: #fff;
+    
+}
+ul li a:hover{
+    color: darkgoldenrod;
+}
+.text p{
+    max-width: 40rem;
+
+}
+.text h1 {
+    color: darkgoldenrod;
+    line-height: 0.5rem;
+}
+
+.search {
+    float: right;
+    margin-top: 6px;
+    margin-left: 250px;
+    padding: 1rem;
+}
+form {
+    background: transparent;
+    height: 30px;
+    display: flex;
+}
+.srch  {
+    background: transparent;
+    border-color: darkgoldenrod;
+    border-right: none;
+    border-width: 2px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    color: #fff;
+}
+.btn {
+    border-width: 2px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    border-color: darkgoldenrod;
+    background-color: darkgoldenrod;
+    color: #fff;
+    padding: 5px;
+}
+.form {
+    width: 250px;
+    height: 380px;
+    background: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75));
+    position: absolute;
+    left: 1000px;
+    top: -50px;
+    
+    border-radius: 10px;
+padding: 25px;
+}
+.join button{
+    border-width: 2px;
+    
+    border-color: darkgoldenrod;
+    background-color: darkgoldenrod;
+    color: #fff;
+    padding: 0.5rem 1.5rem;
+    position: absolute;  
+    letter-spacing: 2px;
+    transition: all 0.5s;
+}
+.join button :hover{
+    letter-spacing: 2px;
+}
+.form h2 {
+    width: 200px;
+    text-align: center;
+    top: -50px;
+    color: darkgoldenrod;
+    padding: 5px;
+    font-size: solid bold;
+    border-radius: 10px;
+    background-color: #fff;
+    height: 40px;
+}
+.form input {
+    width: 200px;
+    text-align: center;
+    background: transparent;
+    height: 30px;
+    color: #fff;
+    padding: 20px;
+border-left: none;
+border-top: none;
+border-right: none;
+border-left: 5px;
+border-color: darkgoldenrod;
+}
+
+.form button {
+    padding: 10px;
+    width: 200px;
+    background-color: darkgoldenrod;
+    color: white;
+    cursor: pointer;
+    letter-spacing: 2px;
+    border-radius: 10px;
+    border-color: darkgoldenrod;
+}
+.account {
+    text-align: center;
+}
+.sign {
+    text-align: center;
+    color: darkgoldenrod;    
+}
+.lw {
+    text-align: center;
+}
+.icon img{
+    font-size: 500px;
+display: inline;
+    text-align: center;
+    text-align: center;
+    padding-right: 150px;
+    padding-bottom:  20px;
+    float: right;
+    position: absolute;
+justify-content: center;
+height: 45px;
+filter: invert(1);
+
+}

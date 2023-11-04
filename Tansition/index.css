@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body {
+    background-color: black;
+    font-family: sans-serif;
+}
+header{
+    position: fixed;
+    top: 0;
+}
+header h1{
+    color: rgb(216, 98, 1);
+}
+header a {
+    color: white;
+}
+header h1 {position: absolute;
+    padding: 2rem;
+}
+header ul {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    width: 630px;
+    position: absolute;
+    margin-left: 700px;
+    margin-top: 28px;
+    color: white;
+}
+
+.you {
+    position: absolute;
+    padding: 2rem;
+    margin-top: 250px;
+    color: white;
+    margin-left: 150px;
+}
+.you h1 {
+    font-size: 50px;
+    padding-bottom: 10px;
+    color: rgb(216, 98, 1);
+}
+.you h2 {
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+.you button{
+    padding: 20px;
+    border-radius: 10px;
+    background: transparent;
+    color: white;
+    font-family: sans-serif;
+    border-color: white;
+    letter-spacing: 1px;
+    transition: 1s;
+}
+.you button:hover{
+    transform: translateX(10px);
+    letter-spacing: 2px;
+}
+main span {
+    color: rgb(216, 98, 1);
+}
+.you button:hover {
+      background-color: rgb(216, 98, 1);
+}
+header li:hover {
+    color: rgb(216, 98, 1);
+    transition: 1s;
+    cursor: pointer;
+}
+li:hover a {
+    color: rgb(216, 98, 1);
+    transition: 1s;
+}
+.cook img{
+    position: absolute;
+    width: 400px;
+    margin-left: 800px;
+    margin-top: 180px;
+    height: 350px;
+    transition: 2s;
+    cursor: pointer;
+}
+main img:hover{
+    transform: rotate(360deg);
+}
+
+/* about */
+.aboutimg img {
+    position: absolute;
+margin-top: 900px;
+    width: 400px;
+    margin-left: 150px;
+    transition: 2s;
+    cursor: pointer;
+}
+.about {
+    color: white;
+    position: absolute;
+    margin-top: 980px;
+    margin-left: 700px;
+}
+.about h3 {
+    color: rgb(216, 98, 1);
+    padding-bottom: 10px;
+}
+.about h2 {
+    
+    padding-bottom: 10px;
+}
+.about p {
+    padding-bottom: 10px;
+}
+.about button{
+    padding: 20px;
+    border-radius: 10px;
+    background: transparent;
+    color: white;
+    font-family: sans-serif;
+    border-color: white;
+    letter-spacing: 1px;
+    transition: 1s;
+}
+
+.about button:hover{
+    transform: translateX(10px);
+    letter-spacing: 2px;
+    cursor: pointer;
+    background-color: rgb(216, 98, 1);
+}
+
+
+.aboutimg img:hover{
+    transform: rotate(360deg);
+}
+.box {
+        position: absolute;
+        height: 200px;
+        width: 200px;
+        color: blueviolet;
+}
+.menu h3 {
+    color: rgb(216, 98, 1);
+    text-align: center;
+}
+.menu h2 {
+    color: white;
+}
+.menu {
+    position: absolute;
+    margin-left: 500px;
+    margin-top: 1450px;
+}
+/* .container {
+    background-color: white;
+    width: 250px;
+    height: 250px;
+} */
+
+.foodim img {
+    position: relative;
+    margin-left: 250px;
+    width: 100px;
+    margin-top: 1600px;
+    border-left: 200px;
+}
+.order  {
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    text-align: center;
+    position: absolute;
+    width:1250px;
+    margin-left: 15px;
+    padding-top: 10px;
+}
+.pixel {
+    position: absolute;
+    width: 200px;
+    height: 300px;
+}
+.serv {
+    color: white;
+    position: absolute;
+    margin-top: 400px;
+    margin-left: 500px;
+    text-align: center;
+}
+.serv h3 {
+color: rgb(216, 98, 1);
+}
+.servi img {display: flex;
+    justify-content: space-between;
+    padding-left: 250px;
+    margin-top: 550px;
+    height: 100px;
+}
+.servi  {
+    display: flex;
+}
+.oder {
+   color: white;
+   display: flex;
+   justify-content: space-around;
+   text-align: center;
+}
+.line2 {
+    position: absolute;
+    width: 100px;
+    height: 300px;
+}
